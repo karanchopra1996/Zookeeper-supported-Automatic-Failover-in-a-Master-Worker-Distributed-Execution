@@ -7,7 +7,7 @@ apache-zookeeper-3.7.1-bin/lib
 https://www.apache.org/dyn/closer.lua/logging/log4j/2.18.0/apache-log4j-2.18.0-bin.tar.gz
 
 
-This assignment uses Zookeeper to implement an automatic failover mechanism in a master-worker
+This project uses Zookeeper to implement an automatic failover mechanism in a master-worker
 distributed execution of graph-bridge programs. Client.java, (i.e., the master) connects to ZooKeeper;
 submits 10 different tasks, each executing GraphBride.java with a different graph size; and waits for all
 tasks to be completed by remote worker processes. Each worker which should be implemented in
